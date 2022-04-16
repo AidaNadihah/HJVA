@@ -20,6 +20,7 @@ public class palidrome {
         String original = input;
         input = input.replaceAll("[^a-zA-Z0-9]", ""); // replace the symbol
 
+        System.out.println("************************");
         System.out.println("Input String: " + original);
        // System.out.println("String Reverse:" + " " + stringReverse(input));
         System.out.println(checkString(stringReverse(input), input));
