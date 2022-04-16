@@ -24,6 +24,8 @@ public class palidrome {
         System.out.println("Input String: " + original);
        // System.out.println("String Reverse:" + " " + stringReverse(input));
         System.out.println(checkString(stringReverse(input), input));
+        
+        System.out.println("************************");
     }
 
     public static String stringReverse(String a) {
